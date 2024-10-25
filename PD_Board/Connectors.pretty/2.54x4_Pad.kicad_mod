@@ -67,17 +67,6 @@
 		)
 	)
 	(attr smd)
-	(fp_rect
-		(start -1.75 -1.25)
-		(end 1.75 9)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Margin")
-		(uuid "b0ed4322-52d6-43aa-b65d-be2578dcc729")
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 11.25 0)
 		(unlocked yes)

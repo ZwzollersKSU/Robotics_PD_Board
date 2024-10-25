@@ -67,46 +67,6 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -2.75 -2.5)
-		(end -2.75 7.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Margin")
-		(uuid "965628ee-1cda-4db1-9eff-31e7c6c365c7")
-	)
-	(fp_line
-		(start -2.75 7.5)
-		(end 2.75 7.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Margin")
-		(uuid "7abdb86e-53f4-404e-a25e-92867597aa61")
-	)
-	(fp_line
-		(start 2.75 -2.5)
-		(end -2.75 -2.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Margin")
-		(uuid "2676ab62-9466-43e5-ab8f-be9781da1afe")
-	)
-	(fp_line
-		(start 2.75 7.5)
-		(end 2.75 -2.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Margin")
-		(uuid "7aa0553a-c0fd-4c74-a968-1ab3b585b5b5")
-	)
 	(fp_text user "-"
 		(at 2.5 5.75 0)
 		(unlocked yes)
