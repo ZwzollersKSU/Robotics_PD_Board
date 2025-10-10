@@ -475,7 +475,7 @@
     ]
   },
   "meta": {
-    "filename": "PD_Board_v2.kicad_pro",
+    "filename": "PD_Board_v3.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -623,7 +623,7 @@
   },
   "sheets": [
     [
-      "bce4738c-f7f8-42a2-8d06-37bf5b82ae31",
+      "4c1a9777-2ad2-4ebd-8559-8ed16c3ae515",
       "Root"
     ]
   ],
