@@ -1,0 +1,11 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+U1,Texas Instruments,LMR604405RAKR,1,0.65,10.5,
+Cinx,TDK,C1005X5R1E104K050BC,1,0.01737,3,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 25 V  ESR: 40 mΩ  Package: 0402  
+Rt,Yageo,AC0402FR-0715K4L,1,0.01,3,Resistance: 15.4 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Cboot,MuRata,GRM155R71C104KA88D,1,0.01,3,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0402  
+Cin,MuRata,GRM31CR71H475KA12L,1,0.1,10.92,Cap: 4.7 µF  Total Derated Cap: 3.3 µF  VDC: 50 V  ESR: 3 mΩ  Package: 1206  
+Rpg,Vishay-Dale,CRCW0603100KFKEA,1,0.01,4.68,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 100 mW  
+L1,Coilcraft,XEL4020-152MEB,1,1.08,25,L: 1.5 µH  DCR: 21.5 mΩ  IDC: 7.4 A  
+Cout,Taiyo Yuden,MSASL21GBB5476MTNA01,1,0.26491,6.75,Cap: 47 µF  Total Derated Cap: 13 µF  VDC: 10 V  ESR: 2.67 mΩ  Package: 0805  
+Rfbb,Vishay-Dale,CRCW040220K0FKED,1,0.01,3,Resistance: 20 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rfbt,Vishay-Dale,CRCW0402100KFKED,1,0.01,3,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 63 mW  
