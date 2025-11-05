@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 3.50135,
+          "width": 3.318849
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -228,6 +228,10 @@
         {
           "diameter": 0.45,
           "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -512,7 +516,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Output_PCB/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "PD_Board_v3.step",
@@ -523,7 +527,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "../PD_Board_v3.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -536,30 +540,36 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part #",
+          "name": "Part #",
           "show": true
         },
         {
@@ -572,13 +582,25 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
